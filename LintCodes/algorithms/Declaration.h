@@ -2,6 +2,9 @@
 #include <iostream>
 #include <string>
 
+//49
+void sortLetters(std::string& chars);
+
 //58
 std::vector<std::vector<int>> fourSum(std::vector<int>& nums, int target);
 

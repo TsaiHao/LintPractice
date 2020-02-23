@@ -8,14 +8,9 @@ using namespace std;
 
 int main()
 {
-	vector<int> vv{ 1, 3, 4, -2, 3, -5, 0 };
-	auto res = fourSum(vv, 1);
+	string s("Ac");
+	sortLetters(s);
+	cout << s << endl;
 
-	for (auto& v : res)
-	{
-		for (auto i : v)
-			cout << i << '\t';
-		cout << endl;
-	}
 	return 0;
 }
