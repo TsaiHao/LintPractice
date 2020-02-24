@@ -2,6 +2,9 @@
 #include <iostream>
 #include <string>
 
+//5
+int kthLargestElement(int n, std::vector<int>& nums);
+
 //49
 void sortLetters(std::string& chars);
 

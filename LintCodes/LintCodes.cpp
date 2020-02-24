@@ -8,9 +8,8 @@ using namespace std;
 
 int main()
 {
-	string s("Ac");
-	sortLetters(s);
-	cout << s << endl;
+	vector<int> v({ 1, 2 , 6, 4 , 5, 8, 20, 34, 32});
+	cout << kthLargestElement(2, v);
 
 	return 0;
 }
