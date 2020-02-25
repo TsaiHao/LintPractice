@@ -1,15 +1,15 @@
 ﻿#include <string>
 #include <iostream>
 #include <vector>
-
 #include "LintCodes.h"
-#include "algorithms/Declaration.h"
+#include "LintCode/LintCode.h"
+#include "Leetcode/LeetCode.h"
+
 using namespace std;
 
 int main()
 {
-	vector<int> v({ 1, 2 , 6, 4 , 5, 8, 20, 34, 32});
-	cout << kthLargestElement(2, v);
-
+	int i = divide(-2147483648, 2);
+	cout << i << endl;
 	return 0;
 }

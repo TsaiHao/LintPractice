@@ -1,7 +1,7 @@
 #include <string>
 #include <algorithm>
 
-#include "Declaration.h"
+#include "LintCode.h"
 using std::string;
 using std::max;
 int LCS(string& s1, string& s2)

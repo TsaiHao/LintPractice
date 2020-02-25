@@ -1,6 +1,6 @@
 #include <vector>
 #include <algorithm>
-#include "Declaration.h"
+#include "LintCode.h"
 
 using std::vector;
 using std::sort;

@@ -1,7 +1,7 @@
 #include <algorithm>
 #include <vector>
 
-#include "Declaration.h"
+#include "LintCode.h"
 
 using std::vector;
 using std::swap;

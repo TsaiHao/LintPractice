@@ -3,9 +3,10 @@
 #
 cmake_minimum_required (VERSION 3.8)
 
-add_subdirectory(algorithms)
+add_subdirectory(LintCode)
+add_subdirectory(LeetCode)
 
 # 将源代码添加到此项目的可执行文件。
 add_executable (LintCodes LintCodes.cpp)
 
-target_link_libraries(LintCodes AlgorithmsFuns)
+target_link_libraries(LintCodes LintFuns LeetFuns)

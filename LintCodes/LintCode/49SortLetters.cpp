@@ -3,7 +3,7 @@
 #include <memory>
 #include <algorithm>
 #include <array>
-#include "Declaration.h"
+#include "LintCode.h"
 using std::string;
 using std::map;
 using std::pair;
