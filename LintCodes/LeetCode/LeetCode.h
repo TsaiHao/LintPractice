@@ -1,4 +1,16 @@
 #pragma once
+#include <vector>
+#include <string>
 
+//19
+struct ListNode {
+	int val;
+	ListNode* next;
+	ListNode(int x) : val(x), next(NULL) {}
+};
+ListNode* removeNthFromEnd(ListNode* head, int n);
 //29
 int divide(int dividend, int divisor);
+
+//43
+std::string multiply(std::string num1, std::string num2);
