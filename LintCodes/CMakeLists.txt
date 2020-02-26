@@ -7,6 +7,6 @@ add_subdirectory(LintCode)
 add_subdirectory(LeetCode)
 
 # 将源代码添加到此项目的可执行文件。
-add_executable (LintCodes LintCodes.cpp)
+add_executable (LintCodes main.cpp)
 
 target_link_libraries(LintCodes LintFuns LeetFuns)

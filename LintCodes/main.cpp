@@ -11,10 +11,6 @@ using namespace std;
 
 int main()
 {
-	ListNode a(1), b(2), c(3), d(4);
-	a.next = &b;
-	b.next = &c;
-	c.next = &d;
-	removeNthFromEnd(&a, 2);
+	cout << multiply(string("140"), string("721"));
 	return 0;
 }

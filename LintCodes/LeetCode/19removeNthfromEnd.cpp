@@ -13,7 +13,7 @@ ListNode* removeNthFromEnd(ListNode* head, int n)
 			NodeQueue.pop();
 		}
 		travelNode = travelNode->next;
-	}
+	} 
 	if (NodeQueue.size() == n) {
 		head = head->next;
 	}
