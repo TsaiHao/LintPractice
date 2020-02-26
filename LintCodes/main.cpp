@@ -1,7 +1,8 @@
 ﻿#include <string>
 #include <iostream>
 #include <vector>
-#include <queue>
+#include <map>
+#include <unordered_map>
 #include <algorithm>
 
 #include "LintCode/LintCode.h"
@@ -11,6 +12,7 @@ using namespace std;
 
 int main()
 {
-	cout << multiply(string("140"), string("721"));
+	string s("aaaaaa");
+	cout << lengthOfLongestSubstring(s) << endl;
 	return 0;
 }

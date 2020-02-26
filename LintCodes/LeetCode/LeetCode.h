@@ -2,6 +2,9 @@
 #include <vector>
 #include <string>
 
+//3 
+int lengthOfLongestSubstring(std::string s);
+
 //19
 struct ListNode {
 	int val;
@@ -9,6 +12,7 @@ struct ListNode {
 	ListNode(int x) : val(x), next(NULL) {}
 };
 ListNode* removeNthFromEnd(ListNode* head, int n);
+
 //29
 int divide(int dividend, int divisor);
 
