@@ -1,8 +1,6 @@
 ﻿#include <string>
 #include <iostream>
 #include <vector>
-#include <map>
-#include <unordered_map>
 #include <algorithm>
 
 #include "LintCode/LintCode.h"
@@ -12,7 +10,16 @@ using namespace std;
 
 int main()
 {
-	string s("aaaaaa");
-	cout << lengthOfLongestSubstring(s) << endl;
+	vector<vector<int>> test;
+	test.push_back({ 1, 3 });
+	test.push_back({ 2, 6 });
+	test.push_back({ 8, 10 });
+	test.push_back({ 15, 18 });
+	for (auto v : merge(test)) {
+		for (auto i : v) {
+			cout << i << '\t';
+		}
+		cout << endl;
+	}
 	return 0;
 }
