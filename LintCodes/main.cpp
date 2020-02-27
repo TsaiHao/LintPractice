@@ -2,7 +2,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-
+#include <set>
 #include "LintCode/LintCode.h"
 #include "Leetcode/LeetCode.h"
 
@@ -10,14 +10,16 @@ using namespace std;
 
 int main()
 {
-	vector<vector<int>> test;
-	test.push_back({ 1, 3 });
-	test.push_back({ 2, 6 });
-	test.push_back({ 8, 10 });
-	test.push_back({ 15, 18 });
-	for (auto v : merge(test)) {
-		for (auto i : v) {
-			cout << i << '\t';
+	vector<vector<string>> vv;
+	vv.push_back({ "John", "johnsmith@mail.com", "john00@mail.com" });
+	vv.push_back({ "John", "johnnybravo@mail.com" });
+	vv.push_back({ "John", "johnsmith@mail.com", "john_newyork@mail.com" });
+	vv.push_back({ "Mary", "mary@mail.com" });
+
+	auto res = accountsMerge(vv);
+	for (auto& v : res) {
+		for (auto& s : v) {
+			cout << s << '\t';
 		}
 		cout << endl;
 	}
