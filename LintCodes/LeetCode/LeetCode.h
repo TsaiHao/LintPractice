@@ -22,6 +22,9 @@ int divide(int dividend, int divisor);
 //43
 std::string multiply(std::string num1, std::string num2);
 
+//54
+std::vector<int> spiralOrder(std::vector<std::vector<int>>& matrix);
+
 //56
 std::vector<std::vector<int>> merge(std::vector<std::vector<int>>& intervals);
 
@@ -40,3 +43,6 @@ int countDigitOne(int n);
 
 //721
 std::vector<std::vector<std::string>> accountsMerge(std::vector<std::vector<std::string>>& accounts);
+
+//1488
+TreeNode* buildTree(std::vector<int>& preorder, std::vector<int>& inorder);
