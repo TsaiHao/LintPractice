@@ -6,11 +6,13 @@ using namespace std;
 using viter = vector<int>::iterator;
 TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder, viter preBeg, viter preEnd, viter inBeg, viter inEnd)
 {
-	if (preBeg > preEnd || inBeg > inEnd) {
+	if (preBeg >= preEnd || inBeg >= inEnd || 
+		(preBeg == preEnd && preEnd == preorder.end()) ||
+		(inBeg == inEnd && inEnd == inorder.end())) {
 		return nullptr;
 	}
 	TreeNode* root = new TreeNode(*preBeg);
-	if (preBeg == preEnd || preBeg == preEnd - 1) {
+	if (preBeg == preEnd - 1) {
 		return root;
 	}
 	// run find every time seems to be too wasty, use map to replace;
