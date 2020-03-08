@@ -10,8 +10,12 @@ using namespace std;
 
 int main()
 {
-	vector<int> preorder{ 1, 2 }, inorder{ 1, 2 };
-	auto root = buildTree(preorder, inorder);
+	Node node1(1), node2(2), node3(3), node4(4);
+	node1.neighbors = { &node2, &node4 };
+	node2.neighbors = { &node1, &node3 };
+	node3.neighbors = { &node2, &node4 };
+	node4.neighbors = { &node1, &node3 };
+	auto ret = cloneGraph(&node1);
 
 	return 0;
 }

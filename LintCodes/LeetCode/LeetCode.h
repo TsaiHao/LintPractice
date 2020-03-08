@@ -38,8 +38,35 @@ struct TreeNode {
 
 bool isValidBST(TreeNode* root);
 
+//133
+// Definition for a Node.
+class Node {
+public:
+    int val;
+    std::vector<Node*> neighbors;
+
+    Node() {
+        val = 0;
+        neighbors = std::vector<Node*>();
+    }
+
+    Node(int _val) {
+        val = _val;
+        neighbors = std::vector<Node*>();
+    }
+
+    Node(int _val, std::vector<Node*> _neighbors) {
+        val = _val;
+        neighbors = _neighbors;
+    }
+};
+Node* cloneGraph(Node* node);
+
 //233
 int countDigitOne(int n);
+
+// 322
+int coinChange(std::vector<int> & coins, int amount);
 
 //721
 std::vector<std::vector<std::string>> accountsMerge(std::vector<std::vector<std::string>>& accounts);
