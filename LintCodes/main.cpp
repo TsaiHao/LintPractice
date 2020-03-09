@@ -3,6 +3,7 @@
 #include <vector>
 #include <algorithm>
 #include <set>
+#include <limits>
 #include "LintCode/LintCode.h"
 #include "Leetcode/LeetCode.h"
 
@@ -10,12 +11,8 @@ using namespace std;
 
 int main()
 {
-	Node node1(1), node2(2), node3(3), node4(4);
-	node1.neighbors = { &node2, &node4 };
-	node2.neighbors = { &node1, &node3 };
-	node3.neighbors = { &node2, &node4 };
-	node4.neighbors = { &node1, &node3 };
-	auto ret = cloneGraph(&node1);
-
+	vector<int> v{ 1, 2 };
+	cout << maxProfit3(v) << endl;
+	
 	return 0;
 }

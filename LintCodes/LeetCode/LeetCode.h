@@ -38,6 +38,12 @@ struct TreeNode {
 
 bool isValidBST(TreeNode* root);
 
+//121
+int maxProfit(std::vector<int>& prices);
+
+//123
+int maxProfit3(std::vector<int>& prices);
+
 //133
 // Definition for a Node.
 class Node {
