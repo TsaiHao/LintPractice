@@ -74,6 +74,9 @@ int countDigitOne(int n);
 // 322
 int coinChange(std::vector<int> & coins, int amount);
 
+//543
+int diameterOfBinaryTree(TreeNode* root);
+
 //721
 std::vector<std::vector<std::string>> accountsMerge(std::vector<std::vector<std::string>>& accounts);
 

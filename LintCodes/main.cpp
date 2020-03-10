@@ -11,8 +11,12 @@ using namespace std;
 
 int main()
 {
-	vector<int> v{ 1, 2 };
-	cout << maxProfit3(v) << endl;
+	TreeNode n1(1), n2(2), n3(3), n4(4), n5(5);
+	n1.left = &n2;
+	n1.right = &n3;
+	n2.left = &n4;
+	n2.right = &n5;
+	cout << diameterOfBinaryTree(&n1);
 	
 	return 0;
 }
