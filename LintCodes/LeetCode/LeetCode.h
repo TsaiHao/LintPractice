@@ -68,10 +68,13 @@ public:
 };
 Node* cloneGraph(Node* node);
 
+//169
+int majorityElement(std::vector<int>& nums);
+
 //233
 int countDigitOne(int n);
 
-// 322
+//322
 int coinChange(std::vector<int> & coins, int amount);
 
 //509

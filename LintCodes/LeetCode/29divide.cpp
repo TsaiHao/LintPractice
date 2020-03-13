@@ -1,5 +1,6 @@
 #include <iostream>
 #include <math.h>
+#include <limits.h>
 #include "LeetCode.h"
 
 unsigned int BitmoveDivide(unsigned int dividend, unsigned int divisor)
