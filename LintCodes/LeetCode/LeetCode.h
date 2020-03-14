@@ -74,6 +74,9 @@ int majorityElement(std::vector<int>& nums);
 //233
 int countDigitOne(int n);
 
+//300
+int lengthOfLIS(std::vector<int>& nums);
+
 //322
 int coinChange(std::vector<int> & coins, int amount);
 
@@ -88,6 +91,9 @@ std::vector<std::vector<std::string>> accountsMerge(std::vector<std::vector<std:
 
 //1071
 std::string gcdOfStrings(std::string str1, std::string str2);
+
+//1114
+//print in order(multithread)
 
 //1488
 TreeNode* buildTree(std::vector<int>& preorder, std::vector<int>& inorder);
