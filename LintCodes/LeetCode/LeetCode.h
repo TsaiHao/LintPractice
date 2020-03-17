@@ -5,6 +5,9 @@
 //3 
 int lengthOfLongestSubstring(std::string s);
 
+//8
+int myAtoi(std::string str);
+
 //15
 std::vector<std::vector<int>> threeSum(std::vector<int>& nums);
 
@@ -97,6 +100,13 @@ std::string gcdOfStrings(std::string str1, std::string str2);
 
 //1114
 //print in order(multithread)
+
+//1160
+int countCharacters(std::vector<std::string>& words, std::string chars);
+
+//1394
+std::string itostring(int i);
+std::string compressString(std::string S);
 
 //1488
 TreeNode* buildTree(std::vector<int>& preorder, std::vector<int>& inorder);
