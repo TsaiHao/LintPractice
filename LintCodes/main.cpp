@@ -15,8 +15,12 @@ using namespace std;
 	
 int main()
 {
-	vector<int> v{ 1,3,6,7,9,4,10,5,6 };
-	cout << lengthOfLIS(v) << endl;
-	
+	vector<vector<int>> grid;
+	grid.push_back({ 1,1,0,0,0 });
+	grid.push_back({ 1,1,0,0,0 });
+	grid.push_back({ 0,0,0,1,1 });
+	grid.push_back({ 0,0,0,1,1 });
+
+	cout << maxAreaOfIsland(grid) << endl;
 	return 0;
 }
