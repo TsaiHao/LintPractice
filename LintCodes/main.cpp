@@ -9,8 +9,7 @@ using namespace std;
 	
 int main()
 {
-	vector<string> words{ "cat", "bt", "hat", "tree" };
-	string chars = "atach";
-	cout << countCharacters(words, chars) << endl;
+	string s("ccc");
+	cout << longestPalindrome(s) << endl;
 	return 0;
 }

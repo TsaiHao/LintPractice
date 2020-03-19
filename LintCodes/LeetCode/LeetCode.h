@@ -83,6 +83,9 @@ int lengthOfLIS(std::vector<int>& nums);
 //322
 int coinChange(std::vector<int> & coins, int amount);
 
+//409
+int longestPalindrome(std::string s);
+
 //509
 int numWays(int n);
 
@@ -94,6 +97,9 @@ int maxAreaOfIsland(std::vector<std::vector<int>>& grid);
 
 //721
 std::vector<std::vector<std::string>> accountsMerge(std::vector<std::vector<std::string>>& accounts);
+
+//836
+bool isRectangleOverlap(std::vector<int>& rec1, std::vector<int>& rec2);
 
 //1071
 std::string gcdOfStrings(std::string str1, std::string str2);
