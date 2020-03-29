@@ -9,7 +9,7 @@ using namespace std;
 	
 int main()
 {
-	string s("ccc");
-	cout << longestPalindrome(s) << endl;
+	vector<vector<int>> grid{ {1, 0, 1}, {0, 0, 0}, {1, 0, 1} };
+	cout << maxDistance(grid) << endl;
 	return 0;
 }

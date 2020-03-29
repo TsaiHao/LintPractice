@@ -110,6 +110,9 @@ std::string gcdOfStrings(std::string str1, std::string str2);
 //1160
 int countCharacters(std::vector<std::string>& words, std::string chars);
 
+//1162
+int maxDistance(std::vector<std::vector<int>>& grid);
+
 //1394
 std::string itostring(int i);
 std::string compressString(std::string S);
