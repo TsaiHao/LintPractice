@@ -9,7 +9,7 @@ using namespace std;
 	
 int main()
 {
-	vector<vector<int>> grid{ {1, 0, 1}, {0, 0, 0}, {1, 0, 1} };
-	cout << maxDistance(grid) << endl;
+	int i = 1;
+	cout << i << endl;
 	return 0;
 }

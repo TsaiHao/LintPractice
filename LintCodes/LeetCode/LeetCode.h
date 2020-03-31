@@ -101,6 +101,9 @@ std::vector<std::vector<std::string>> accountsMerge(std::vector<std::vector<std:
 //836
 bool isRectangleOverlap(std::vector<int>& rec1, std::vector<int>& rec2);
 
+//912
+std::vector<int> sortArray(std::vector<int>& nums);
+
 //1071
 std::string gcdOfStrings(std::string str1, std::string str2);
 
@@ -119,3 +122,6 @@ std::string compressString(std::string S);
 
 //1488
 TreeNode* buildTree(std::vector<int>& preorder, std::vector<int>& inorder);
+
+//1569
+std::vector<int> singleNumbers(std::vector<int>& nums);
