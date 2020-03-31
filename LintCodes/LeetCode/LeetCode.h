@@ -83,14 +83,26 @@ int lengthOfLIS(std::vector<int>& nums);
 //322
 int coinChange(std::vector<int> & coins, int amount);
 
+//409
+int longestPalindrome(std::string s);
+
 //509
 int numWays(int n);
 
 //543
 int diameterOfBinaryTree(TreeNode* root);
 
+//695
+int maxAreaOfIsland(std::vector<std::vector<int>>& grid);
+
 //721
 std::vector<std::vector<std::string>> accountsMerge(std::vector<std::vector<std::string>>& accounts);
+
+//836
+bool isRectangleOverlap(std::vector<int>& rec1, std::vector<int>& rec2);
+
+//912
+std::vector<int> sortArray(std::vector<int>& nums);
 
 //1071
 std::string gcdOfStrings(std::string str1, std::string str2);
@@ -98,9 +110,18 @@ std::string gcdOfStrings(std::string str1, std::string str2);
 //1114
 //print in order(multithread)
 
+//1160
+int countCharacters(std::vector<std::string>& words, std::string chars);
+
+//1162
+int maxDistance(std::vector<std::vector<int>>& grid);
+
 //1394
 std::string itostring(int i);
 std::string compressString(std::string S);
 
 //1488
 TreeNode* buildTree(std::vector<int>& preorder, std::vector<int>& inorder);
+
+//1569
+std::vector<int> singleNumbers(std::vector<int>& nums);

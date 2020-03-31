@@ -9,9 +9,7 @@ using namespace std;
 	
 int main()
 {
-	string s;
-	while(cin >> s) {
-		cout << myAtoi(s) << endl;
-	}
+	int i = 1;
+	cout << i << endl;
 	return 0;
 }
