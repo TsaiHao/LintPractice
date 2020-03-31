@@ -9,7 +9,9 @@ using namespace std;
 	
 int main()
 {
-	int i = 1;
-	cout << i << endl;
+	vector<int> v{1, 2, 5, 2};
+	auto a = singleNumbers(v);
+
+	cout << a[0] << ", " << a[1] << endl;
 	return 0;
 }

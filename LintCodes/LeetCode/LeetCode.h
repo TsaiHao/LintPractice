@@ -71,6 +71,15 @@ public:
 };
 Node* cloneGraph(Node* node);
 
+//138
+struct Node138 {
+    int val;
+    Node138* next = NULL;
+    Node138* random = NULL;
+    Node138(int v): val(v) {}
+};
+Node138* copyRandomList(Node138* head);
+
 //169
 int majorityElement(std::vector<int>& nums);
 

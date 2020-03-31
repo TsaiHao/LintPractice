@@ -18,8 +18,12 @@ vector<int> singleNumbers(vector<int>& nums)
 	{
 		mask <<= 1;
 	}
-	auto iter = partition(nums.begin(), nums.end(), [mask](int x) { return (x & mask) == 1; });
-	int left = accumulate(nums.begin(), iter, 0, [](int x, int y) { return x ^ y; });
+	int left = 0;
+	for (auto iter = nums.begin(); iter != nums.end(); ++iter) {
+		if ((*iter & mask) == 0) {
+			left ^= (*iter);
+		}
+	}
 	int right = left ^ x;
 	return vector<int>({ left, right });
 }
