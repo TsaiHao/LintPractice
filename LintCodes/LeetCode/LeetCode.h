@@ -5,8 +5,14 @@
 //3 
 int lengthOfLongestSubstring(std::string s);
 
+//5
+std::string longestPalindrome(std::string s, int i); //int param used to distinguish from 409
+
 //8
 int myAtoi(std::string str);
+
+//11
+int maxArea(std::vector<int>& height);
 
 //15
 std::vector<std::vector<int>> threeSum(std::vector<int>& nums);

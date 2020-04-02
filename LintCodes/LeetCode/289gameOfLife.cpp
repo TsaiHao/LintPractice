@@ -39,6 +39,6 @@ void gameOfLife(vector<vector<int>>& board)
     }
     for (int i = 0; i < row; ++i)
     {
-        copy(board[i].begin(), board[i].end(), b2[i].begin());
+        copy(b2[i].begin(), b2[i].end(), board[i].begin());
     }
 }

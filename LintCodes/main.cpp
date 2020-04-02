@@ -9,15 +9,7 @@ using namespace std;
 	
 int main()
 {
-	vector<vector<int>> board{{0, 1, 0}, {0, 0, 1}, {1, 1, 1}, {0, 0, 0}};
-	gameOfLife(board);
-	for (auto v: board)
-	{
-		for (auto i : v) 
-		{
-			cout << i << '\t';
-		}
-		cout << endl;
-	}
+	string s("cbbd");
+	cout << longestPalindrome(s, 1) << endl;
 	return 0;
 }

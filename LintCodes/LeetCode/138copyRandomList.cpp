@@ -5,26 +5,26 @@
 #include "LeetCode.h"
 using namespace std;
 
-typedef Node138 Node;
-Node* copyRandomList(Node* head) 
+typedef Node138* Nodeptr;
+Nodeptr copyRandomList(Nodeptr head) 
 {
     if (head == NULL) {
         return NULL;
     }
-    unordered_map<Node*, int> oldMap;
-    unordered_map<int, Node*> newMap;
+    unordered_map<Nodeptr, int> oldMap;
+    unordered_map<int, Nodeptr> newMap;
 
-    Node* nHead = new Node(head->val);
+    Nodeptr nHead = new Node138(head->val);
     oldMap[head] = 0;
     newMap[0] = nHead;
-    Node* next = head->next;
-    Node* newNext = nHead;
+    Nodeptr next = head->next;
+    Nodeptr newNext = nHead;
     int index = 1;
     while(next != NULL)
     {
         oldMap[next] = index;
         
-        Node* temp = new Node(next->val);
+        Nodeptr temp = new Node138(next->val);
         newNext->next = temp;
         newNext = newNext->next;
         next = next->next;
