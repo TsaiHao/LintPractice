@@ -9,9 +9,15 @@ using namespace std;
 	
 int main()
 {
-	vector<int> v{1, 2, 5, 2};
-	auto a = singleNumbers(v);
-
-	cout << a[0] << ", " << a[1] << endl;
+	vector<vector<int>> board{{0, 1, 0}, {0, 0, 1}, {1, 1, 1}, {0, 0, 0}};
+	gameOfLife(board);
+	for (auto v: board)
+	{
+		for (auto i : v) 
+		{
+			cout << i << '\t';
+		}
+		cout << endl;
+	}
 	return 0;
 }

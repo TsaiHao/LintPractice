@@ -37,7 +37,13 @@ Node* copyRandomList(Node* head)
     index = 0;
     while(next != NULL)
     {
-        newNext->random = newMap[oldMap[next->random]];
+        if (next->random == NULL) {
+            newNext->random = NULL;
+        }
+        else {
+            newNext->random = newMap[oldMap[next->random]];
+        }
+        
         next = next->next;
         newNext = newNext->next;
     }

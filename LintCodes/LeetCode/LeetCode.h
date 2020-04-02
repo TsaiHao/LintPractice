@@ -86,6 +86,9 @@ int majorityElement(std::vector<int>& nums);
 //233
 int countDigitOne(int n);
 
+//289
+void gameOfLife(std::vector<std::vector<int>>& board);
+
 //300
 int lengthOfLIS(std::vector<int>& nums);
 
