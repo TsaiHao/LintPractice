@@ -9,11 +9,14 @@ using namespace std;
 	
 int main(int argc, char* argv[])
 {
-	int a = atoi(argv[1]);
-	auto v = generateParenthesis(a);
-	for (auto s: v)
+	vector<string> vs;
+	string tmp;
+	string start, end;
+	cin >> start >> end;
+	while(cin >> tmp)
 	{
-		cout << s << endl;
+		vs.push_back(tmp);
 	}
+	cout << ladderLength(start, end, vs) << endl;
 	return 0;
 }

@@ -14,7 +14,7 @@ double myPow(double x, int n)
     unsigned int exp;
     if (n == INT32_MIN)
     {
-        exp = INT32_MAX + 1;
+        exp = (unsigned int)INT32_MAX + 1;
     }
     else
     {
