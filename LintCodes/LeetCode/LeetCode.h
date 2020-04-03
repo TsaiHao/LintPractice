@@ -25,11 +25,17 @@ struct ListNode {
 };
 ListNode* removeNthFromEnd(ListNode* head, int n);
 
+//22
+std::vector<std::string> generateParenthesis(int n);
+
 //29
 int divide(int dividend, int divisor);
 
 //43
 std::string multiply(std::string num1, std::string num2);
+
+//50
+double myPow(double x, int n);
 
 //54
 std::vector<int> spiralOrder(std::vector<std::vector<int>>& matrix);

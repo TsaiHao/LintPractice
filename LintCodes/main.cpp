@@ -7,9 +7,13 @@
 #include "LeetCode/LeetCode.h"
 using namespace std;
 	
-int main()
+int main(int argc, char* argv[])
 {
-	string s("cbbd");
-	cout << longestPalindrome(s, 1) << endl;
+	int a = atoi(argv[1]);
+	auto v = generateParenthesis(a);
+	for (auto s: v)
+	{
+		cout << s << endl;
+	}
 	return 0;
 }
