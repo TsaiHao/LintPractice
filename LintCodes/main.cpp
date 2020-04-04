@@ -27,27 +27,38 @@ int main(int argc, char* argv[])
 		exit(1);
 	}
 
+	if (nth == 10)
+	{
+		cin >> s >> word;
+		cout << isMatch(s, word) << endl;
+	}
+	
 	if (nth == 30)
 	{
 		cin >> s;
-		while (cin >> word)
-		{
+		while (cin >> word) {
 			dict.push_back(word);
 		}
 		v = findSubstring(s, dict);
-		for (auto i: v)
-		{
+		for (auto i: v) {
 			cout << i << '\t';
 		}
 		cout << endl;
 	}
-	
+
 	if (nth == 32)
 	{
-		while (cin >> s)
-		{
+		while (cin >> s) {
 			cout << "longest valid parentheses: " << longestValidParentheses(s) << endl;
 		}
+	}
+
+	if (nth == 42)
+	{
+		while (cin >> i) {
+			v.push_back(i);
+		}
+		cout << trap(v) << endl;
 	}
 	return 0;
 }

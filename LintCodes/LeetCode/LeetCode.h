@@ -11,6 +11,9 @@ std::string longestPalindrome(std::string s, int i); //int param used to disting
 //8
 int myAtoi(std::string str);
 
+//10
+bool isMatch(std::string s, std::string p);
+
 //11
 int maxArea(std::vector<int>& height);
 
@@ -36,6 +39,9 @@ std::vector<int> findSubstring(std::string s, std::vector<std::string>& words);
 
 //32
 int longestValidParentheses(std::string s);
+
+//42
+int trap(std::vector<int>& height);
 
 //43
 std::string multiply(std::string num1, std::string num2);
