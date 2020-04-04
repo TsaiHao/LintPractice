@@ -31,6 +31,12 @@ std::vector<std::string> generateParenthesis(int n);
 //29
 int divide(int dividend, int divisor);
 
+//30
+std::vector<int> findSubstring(std::string s, std::vector<std::string>& words);
+
+//32
+int longestValidParentheses(std::string s);
+
 //43
 std::string multiply(std::string num1, std::string num2);
 

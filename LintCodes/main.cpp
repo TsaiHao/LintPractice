@@ -9,14 +9,45 @@ using namespace std;
 	
 int main(int argc, char* argv[])
 {
-	vector<string> vs;
-	string tmp;
-	string start, end;
-	cin >> start >> end;
-	while(cin >> tmp)
+	vector<vector<int>> vv;
+	vector<int> v;
+	vector<string> dict;
+	string s, word;
+	int i;
+
+	if (argc < 2)
 	{
-		vs.push_back(tmp);
+		cerr << "usage error" << endl;
+		exit(1);
+	}	
+	int nth = atoi(argv[1]);
+	if (nth == 0)
+	{
+		cerr << "number error" << endl;
+		exit(1);
 	}
-	cout << ladderLength(start, end, vs) << endl;
+
+	if (nth == 30)
+	{
+		cin >> s;
+		while (cin >> word)
+		{
+			dict.push_back(word);
+		}
+		v = findSubstring(s, dict);
+		for (auto i: v)
+		{
+			cout << i << '\t';
+		}
+		cout << endl;
+	}
+	
+	if (nth == 32)
+	{
+		while (cin >> s)
+		{
+			cout << "longest valid parentheses: " << longestValidParentheses(s) << endl;
+		}
+	}
 	return 0;
 }
