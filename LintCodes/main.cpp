@@ -1,12 +1,14 @@
 ﻿#include <string>
 #include <iostream>
+#include <iterator>
 #include <vector>
 #include <algorithm>
 #include <sstream>
 #include "LintCode/LintCode.h"
 #include "LeetCode/LeetCode.h"
 using namespace std;
-	
+typedef istream_iterator<int> in;
+
 int main(int argc, char* argv[])
 {
 	vector<vector<int>> vv;
@@ -59,6 +61,28 @@ int main(int argc, char* argv[])
 			v.push_back(i);
 		}
 		cout << trap(v) << endl;
+	}
+
+	if (nth == 445)
+	{
+		int n1, n2;
+		while (cin >> n1 >> n2) {
+			fun445test(n1, n2);
+		}
+	}
+
+	if (nth == 946) 
+	{
+		int M;
+		cin >> M;
+		vector<int> pushed(M), popped(M);
+		for (int i = 0; i < M; ++i) {
+			cin >> pushed[i];
+		}
+		for (int j = 0; j < M; ++j) {
+			cin >> popped[j];
+		}
+		cout << validateStackSequences(pushed, popped) << endl;
 	}
 	return 0;
 }

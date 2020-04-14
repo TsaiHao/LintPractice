@@ -125,6 +125,13 @@ int coinChange(std::vector<int> & coins, int amount);
 //409
 int longestPalindrome(std::string s);
 
+//445
+ListNode* addTwoNumbers(ListNode* l1, ListNode* l2);
+int fun445test(int n1, int n2);
+
+//460
+// class LFUCache {};
+
 //509
 int numWays(int n);
 
@@ -142,6 +149,9 @@ bool isRectangleOverlap(std::vector<int>& rec1, std::vector<int>& rec2);
 
 //912
 std::vector<int> sortArray(std::vector<int>& nums);
+
+//946
+bool validateStackSequences(std::vector<int>& pushed, std::vector<int>& popped);
 
 //1071
 std::string gcdOfStrings(std::string str1, std::string str2);
