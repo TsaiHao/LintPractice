@@ -63,6 +63,13 @@ int main(int argc, char* argv[])
 		cout << trap(v) << endl;
 	}
 
+	if (nth == 343) 
+	{
+		int x;
+		while (cin >> x) {
+			cout << "max multiply: " << cuttingRope(x) << endl;
+		}
+	}
 	if (nth == 445)
 	{
 		int n1, n2;

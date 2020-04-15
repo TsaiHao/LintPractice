@@ -122,6 +122,9 @@ int lengthOfLIS(std::vector<int>& nums);
 //322
 int coinChange(std::vector<int> & coins, int amount);
 
+//343
+ int cuttingRope(int n);
+ 
 //409
 int longestPalindrome(std::string s);
 
@@ -134,6 +137,9 @@ int fun445test(int n1, int n2);
 
 //509
 int numWays(int n);
+
+//542
+std::vector<std::vector<int>> updateMatrix(std::vector<std::vector<int>>& matrix);
 
 //543
 int diameterOfBinaryTree(TreeNode* root);
