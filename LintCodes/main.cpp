@@ -4,6 +4,7 @@
 #include <vector>
 #include <algorithm>
 #include <sstream>
+#include <fstream>
 #include "LintCode/LintCode.h"
 #include "LeetCode/LeetCode.h"
 using namespace std;
@@ -63,6 +64,16 @@ int main(int argc, char* argv[])
 		cout << trap(v) << endl;
 	}
 
+	if (nth == 49)
+	{
+		ifstream ifs("test.txt");
+		vector<string> words;
+		while (ifs >> word) {
+			words.push_back(word);
+		}
+		auto vvs = groupAnagrams(words);
+	}
+
 	if (nth == 343) 
 	{
 		int x;
@@ -70,6 +81,7 @@ int main(int argc, char* argv[])
 			cout << "max multiply: " << cuttingRope(x) << endl;
 		}
 	}
+
 	if (nth == 445)
 	{
 		int n1, n2;

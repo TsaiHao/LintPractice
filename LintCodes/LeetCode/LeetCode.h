@@ -46,6 +46,9 @@ int trap(std::vector<int>& height);
 //43
 std::string multiply(std::string num1, std::string num2);
 
+//49
+std::vector<std::vector<std::string>> groupAnagrams(std::vector<std::string>& strs);
+
 //50
 double myPow(double x, int n);
 
