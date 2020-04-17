@@ -90,6 +90,14 @@ int main(int argc, char* argv[])
 		}
 	}
 
+	if (nth == 921)
+	{
+		string s;
+		while (cin >> s) {
+			cout << minAddToMakeValid(s) << endl;
+		}
+	}
+
 	if (nth == 946) 
 	{
 		int M;
@@ -102,6 +110,13 @@ int main(int argc, char* argv[])
 			cin >> popped[j];
 		}
 		cout << validateStackSequences(pushed, popped) << endl;
+	}
+
+	if (nth == 991)
+	{
+		int x, y;
+		cin >> x >> y;
+		cout << brokenCalc(x, y) << endl;
 	}
 	return 0;
 }

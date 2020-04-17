@@ -4,9 +4,9 @@
 
 //-1
 template <typename T>
-void displayMatrix(const vector<vector<T>>& mat, ostream& os);
+void displayMatrix(const std::vector<std::vector<T>>& mat, std::ostream& os);
 template <typename T>
-void displayArray(const vector<T>& arr, ostream& os);
+void displayArray(const std::vector<T>& arr, std::ostream& os);
 
 //3 
 int lengthOfLongestSubstring(std::string s);
@@ -168,8 +168,14 @@ bool isRectangleOverlap(std::vector<int>& rec1, std::vector<int>& rec2);
 //912
 std::vector<int> sortArray(std::vector<int>& nums);
 
+//921
+ int minAddToMakeValid(std::string S);
+
 //946
 bool validateStackSequences(std::vector<int>& pushed, std::vector<int>& popped);
+
+//991
+int brokenCalc(int X, int Y);
 
 //1071
 std::string gcdOfStrings(std::string str1, std::string str2);
