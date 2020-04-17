@@ -6,15 +6,19 @@
 #include "LeetCode.h"
 using namespace std;
 
-template <typename T, typename A>
-void displayResult(ostream& os, T& result)
+template <typename T>
+void displayMatrix(const vector<vector<T>>& mat, ostream& os)
 {
-    if (typeid(T) == typeid(vector<vector<A>>)) {
-        for (auto i = result.begin(); i != result.end(); ++i) {
-            for (auto j = i->begin(); j != i->end(); ++j) {
-                os << *j << '\t';
-            }
-            os << "\r\n";
-        }
+    for (auto& arr : mat) {
+        displayArray(arr, os);
     }
+}
+
+template <typename T>
+void displayArray(const vector<T>& arr, ostream& os)
+{
+    for (auto& e : arr) {
+        os << e << '\t';
+    }
+    os << endl;
 }

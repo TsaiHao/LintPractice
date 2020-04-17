@@ -2,6 +2,12 @@
 #include <vector>
 #include <string>
 
+//-1
+template <typename T>
+void displayMatrix(const vector<vector<T>>& mat, ostream& os);
+template <typename T>
+void displayArray(const vector<T>& arr, ostream& os);
+
 //3 
 int lengthOfLongestSubstring(std::string s);
 
@@ -54,6 +60,9 @@ double myPow(double x, int n);
 
 //54
 std::vector<int> spiralOrder(std::vector<std::vector<int>>& matrix);
+
+//55
+ bool canJump(std::vector<int>& nums);
 
 //56
 std::vector<std::vector<int>> merge(std::vector<std::vector<int>>& intervals);
