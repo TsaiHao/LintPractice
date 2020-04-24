@@ -198,3 +198,6 @@ TreeNode* buildTree(std::vector<int>& preorder, std::vector<int>& inorder);
 
 //1569
 std::vector<int> singleNumbers(std::vector<int>& nums);
+
+//1590
+int reversePairs(std::vector<int>& nums);

@@ -118,5 +118,15 @@ int main(int argc, char* argv[])
 		cin >> x >> y;
 		cout << brokenCalc(x, y) << endl;
 	}
+
+	if (nth == 1590)
+	{
+		int x;
+		while (cin >> x)
+		{
+			v.push_back(x);
+		}
+		cout << reversePairs(v) << endl;
+	}
 	return 0;
 }
