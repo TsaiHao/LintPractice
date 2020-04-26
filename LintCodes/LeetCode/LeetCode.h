@@ -1,18 +1,34 @@
 #pragma once
 #include <vector>
 #include <string>
+#include <iostream>
 
 //-1
 template <typename T>
-void displayMatrix(const std::vector<std::vector<T>>& mat, std::ostream& os);
+inline void displayArray(const std::vector<T>& arr, std::ostream& os)
+{
+    for (auto& e : arr) {
+        os << e << '\t';
+    }
+    os << std::endl;
+}
 template <typename T>
-void displayArray(const std::vector<T>& arr, std::ostream& os);
+inline void displayMatrix(const std::vector<std::vector<T>>& mat, std::ostream& os)
+{
+    for (auto& arr : mat) {
+        displayArray(arr, os);
+    }
+}
 
 //3 
 int lengthOfLongestSubstring(std::string s);
 
 //5
 std::string longestPalindrome(std::string s, int i); //int param used to distinguish from 409
+
+//7
+int reverse(int x);
+void test0007();
 
 //8
 int myAtoi(std::string str);
@@ -37,6 +53,10 @@ ListNode* removeNthFromEnd(ListNode* head, int n);
 //22
 std::vector<std::string> generateParenthesis(int n);
 
+//23
+ListNode* mergeKLists(std::vector<ListNode*>& lists);
+void test0023();
+
 //29
 int divide(int dividend, int divisor);
 
@@ -51,6 +71,9 @@ int trap(std::vector<int>& height);
 
 //43
 std::string multiply(std::string num1, std::string num2);
+
+//46
+std::vector<std::vector<int>> permute(std::vector<int>& nums);
 
 //49
 std::vector<std::vector<std::string>> groupAnagrams(std::vector<std::string>& strs);
@@ -128,6 +151,9 @@ int countDigitOne(int n);
 //289
 void gameOfLife(std::vector<std::vector<int>>& board);
 
+//295
+// class MedianFinder;
+
 //300
 int lengthOfLIS(std::vector<int>& nums);
 
@@ -135,8 +161,12 @@ int lengthOfLIS(std::vector<int>& nums);
 int coinChange(std::vector<int> & coins, int amount);
 
 //343
- int cuttingRope(int n);
- 
+int cuttingRope(int n);
+
+//347
+std::vector<int> topKFrequent(std::vector<int>& nums, int k);
+void test0347();
+
 //409
 int longestPalindrome(std::string s);
 
