@@ -30,15 +30,17 @@ int main(int argc, char* argv[])
 		exit(1);
 	}
 
-	if (nth == 7) {
+	if (nth == 4) 
+		test0004();
+
+	if (nth == 7) 
 		test0007();
-	}
-	if (nth == 23) {
+
+	if (nth == 23) 
 		test0023();
-	}	
-	if (nth == 347) {
+		
+	if (nth == 347) 
 		test0347();
-	}
 
 	return 0;
 }

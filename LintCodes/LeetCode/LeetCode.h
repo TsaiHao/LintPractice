@@ -23,6 +23,10 @@ inline void displayMatrix(const std::vector<std::vector<T>>& mat, std::ostream& 
 //3 
 int lengthOfLongestSubstring(std::string s);
 
+//4
+double findMedianSortedArrays(std::vector<int>& nums1, std::vector<int>& nums2);
+void test0004();
+
 //5
 std::string longestPalindrome(std::string s, int i); //int param used to distinguish from 409
 
@@ -147,6 +151,9 @@ int majorityElement(std::vector<int>& nums);
 
 //233
 int countDigitOne(int n);
+
+//236
+TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q);
 
 //289
 void gameOfLife(std::vector<std::vector<int>>& board);
