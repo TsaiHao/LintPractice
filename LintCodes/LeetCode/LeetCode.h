@@ -149,6 +149,12 @@ Node138* copyRandomList(Node138* head);
 //169
 int majorityElement(std::vector<int>& nums);
 
+//201
+int rangeBitwiseAnd(int m, int n);
+
+//214
+std::string shortestPalindrome(std::string s);
+
 //233
 int countDigitOne(int n);
 
