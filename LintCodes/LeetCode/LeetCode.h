@@ -104,6 +104,9 @@ struct TreeNode {
 
 bool isValidBST(TreeNode* root);
 
+//102
+std::vector<std::vector<int>> levelOrder(TreeNode* root);
+
 //121
 int maxProfit(std::vector<int>& prices);
 
@@ -160,6 +163,9 @@ int countDigitOne(int n);
 
 //236
 TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q);
+
+//240
+bool searchMatrix(std::vector<std::vector<int>>& matrix, int target);
 
 //289
 void gameOfLife(std::vector<std::vector<int>>& board);
