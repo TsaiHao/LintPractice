@@ -149,6 +149,9 @@ struct Node138 {
 };
 Node138* copyRandomList(Node138* head);
 
+//152
+int maxProduct(std::vector<int>& nums);
+
 //169
 int majorityElement(std::vector<int>& nums);
 
@@ -226,6 +229,9 @@ bool validateStackSequences(std::vector<int>& pushed, std::vector<int>& popped);
 //991
 int brokenCalc(int X, int Y);
 
+//1012
+int numDupDigitsAtMostN(int N);
+
 //1071
 std::string gcdOfStrings(std::string str1, std::string str2);
 
@@ -241,6 +247,9 @@ int maxDistance(std::vector<std::vector<int>>& grid);
 //1394
 std::string itostring(int i);
 std::string compressString(std::string S);
+
+//1411
+int numOfWays(int n);
 
 //1488
 TreeNode* buildTree(std::vector<int>& preorder, std::vector<int>& inorder);
