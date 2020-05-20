@@ -149,6 +149,9 @@ struct Node138 {
 };
 Node138* copyRandomList(Node138* head);
 
+//144
+std::vector<int> preorderTraversal(TreeNode* root);
+
 //152
 int maxProduct(std::vector<int>& nums);
 
