@@ -107,6 +107,9 @@ bool isValidBST(TreeNode* root);
 //102
 std::vector<std::vector<int>> levelOrder(TreeNode* root);
 
+//105
+TreeNode* buildTree(std::vector<int>& preorder, std::vector<int>& inorder, int;
+
 //121
 int maxProfit(std::vector<int>& prices);
 
@@ -262,3 +265,6 @@ std::vector<int> singleNumbers(std::vector<int>& nums);
 
 //1590
 int reversePairs(std::vector<int>& nums);
+
+//interview 17-17
+std::vector<std::vector<int>> multiSearch(std::string big, std::vector<std::string>& smalls);
