@@ -250,6 +250,9 @@ int countCharacters(std::vector<std::string>& words, std::string chars);
 //1162
 int maxDistance(std::vector<std::vector<int>>& grid);
 
+//1300
+int findBestValue(std::vector<int>& arr, int target);
+
 //1394
 std::string itostring(int i);
 std::string compressString(std::string S);
@@ -265,6 +268,9 @@ std::vector<int> singleNumbers(std::vector<int>& nums);
 
 //1590
 int reversePairs(std::vector<int>& nums);
+
+//1644
+int translateNum(int num);
 
 //interview 17-17
 std::vector<std::vector<int>> multiSearch(std::string big, std::vector<std::string>& smalls);
