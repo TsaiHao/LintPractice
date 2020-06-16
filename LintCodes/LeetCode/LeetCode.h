@@ -182,6 +182,22 @@ void gameOfLife(std::vector<std::vector<int>>& board);
 //295
 // class MedianFinder;
 
+//297
+/*
+class Codec {
+public:
+
+    // Encodes a tree to a single string.
+    string serialize(TreeNode* root) {
+        
+    }
+
+    // Decodes your encoded data to tree.
+    TreeNode* deserialize(string data) {
+        
+    }
+};
+*/
 //300
 int lengthOfLIS(std::vector<int>& nums);
 
