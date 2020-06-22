@@ -54,6 +54,9 @@ struct ListNode {
 };
 ListNode* removeNthFromEnd(ListNode* head, int n);
 
+//21
+ListNode *mergeTwoList(ListNode *l1, ListNode *l2);
+
 //22
 std::vector<std::string> generateParenthesis(int n);
 
@@ -69,6 +72,9 @@ std::vector<int> findSubstring(std::string s, std::vector<std::string>& words);
 
 //32
 int longestValidParentheses(std::string s);
+
+//40
+std::vector<std::vector<int>> combinationSum2(std::vector<int>& candidates, int target);
 
 //42
 int trap(std::vector<int>& height);
@@ -154,6 +160,9 @@ Node138* copyRandomList(Node138* head);
 
 //144
 std::vector<int> preorderTraversal(TreeNode* root);
+
+//151
+std::string reverseWords(std::string s);
 
 //152
 int maxProduct(std::vector<int>& nums);
@@ -260,6 +269,9 @@ std::string gcdOfStrings(std::string str1, std::string str2);
 //1114
 //print in order(multithread)
 
+//1144
+int movesToMakeZigzag(std::vector<int> &nums);
+
 //1160
 int countCharacters(std::vector<std::string>& words, std::string chars);
 
@@ -284,6 +296,9 @@ std::vector<int> singleNumbers(std::vector<int>& nums);
 
 //1590
 int reversePairs(std::vector<int>& nums);
+
+//1632
+std::vector<std::vector<std::string>> solveNQueens(int n);
 
 //1644
 int translateNum(int num);
