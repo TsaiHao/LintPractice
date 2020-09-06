@@ -8,9 +8,12 @@ cmake_install.cmake
 install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
+build
+cmake-*
 _deps
 
 leetcode.java
 .vs
 .git
 .vscode
+.idea

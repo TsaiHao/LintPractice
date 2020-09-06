@@ -82,6 +82,9 @@ int trap(std::vector<int>& height);
 //43
 std::string multiply(std::string num1, std::string num2);
 
+//45
+int jump(std::vector<int>& nums);
+
 //46
 std::vector<std::vector<int>> permute(std::vector<int>& nums);
 
@@ -114,7 +117,7 @@ bool isValidBST(TreeNode* root);
 std::vector<std::vector<int>> levelOrder(TreeNode* root);
 
 //105
-TreeNode* buildTree(std::vector<int>& preorder, std::vector<int>& inorder, int;
+TreeNode* buildTree(std::vector<int>& preorder, std::vector<int>& inorder, int);
 
 //121
 int maxProfit(std::vector<int>& prices);
@@ -225,7 +228,6 @@ int longestPalindrome(std::string s);
 
 //445
 ListNode* addTwoNumbers(ListNode* l1, ListNode* l2);
-int fun445test(int n1, int n2);
 
 //460
 // class LFUCache {};

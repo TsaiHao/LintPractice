@@ -69,38 +69,3 @@ ListNode* addTwoNumbers(ListNode* l1, ListNode* l2)
     return sum;
 }
 
-int fun445test(int n1, int n2)
-{
-    ListNode* l1 = NULL, *l2 = NULL;
-    if (n1 == 0) {
-        l1 = new ListNode(0);
-    }
-    else {
-        while (n1 != 0) {
-            int a = n1 % 10;
-            n1 /= 10;
-            ListNode* temp = new ListNode(a);
-            temp->next = l1;
-            l1 = temp;
-        }
-    }
-
-    if (n2 == 0) {
-        l2 = new ListNode(0);
-    }
-    else {
-        while (n2 != 0) {
-            int a = n2 % 10;
-            n2 /= 10;
-            ListNode* temp = new ListNode(a);
-            temp->next = l2;
-            l2 = temp;
-        }
-    }
-
-    ListNode* sum = addTwoNumbers(l1, l2);
-    while (sum != NULL) {
-        cout << sum->val << '\t';
-        sum = sum->next;
-    }
-}
