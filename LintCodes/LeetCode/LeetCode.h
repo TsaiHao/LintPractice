@@ -122,6 +122,9 @@ TreeNode* buildTree(std::vector<int>& preorder, std::vector<int>& inorder, int);
 //121
 int maxProfit(std::vector<int>& prices);
 
+//122
+int maxProfit2(std::vector<int>& prices);
+
 //123
 int maxProfit3(std::vector<int>& prices);
 
