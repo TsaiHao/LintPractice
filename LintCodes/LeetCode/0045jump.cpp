@@ -10,7 +10,7 @@ int jump(vector<int>& nums)
     int maxDistance = 0;
     int step = 0;
     for (int i = 0; i < nums.size() - 1; ++i) {
-        maxDistance = max(maxDistance, i + nums[i]);
+        maxDistance = std::max(int(maxDistance), int(i + nums[i]));
         if (i == board) {
             ++step;
             board = maxDistance;

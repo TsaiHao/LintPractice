@@ -103,6 +103,9 @@ std::vector<int> spiralOrder(std::vector<std::vector<int>>& matrix);
 //56
 std::vector<std::vector<int>> merge(std::vector<std::vector<int>>& intervals);
 
+//92
+ListNode* reverseBetween(ListNode* head, int left, int right);
+
 //98
 struct TreeNode {
     int val;
@@ -295,6 +298,9 @@ int numOfWays(int n);
 
 //1488
 TreeNode* buildTree(std::vector<int>& preorder, std::vector<int>& inorder);
+
+//1535
+int getWinner(std::vector<int>& arr, int k);
 
 //1569
 std::vector<int> singleNumbers(std::vector<int>& nums);
