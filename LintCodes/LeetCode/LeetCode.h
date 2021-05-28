@@ -232,6 +232,9 @@ ListNode* addTwoNumbers(ListNode* l1, ListNode* l2);
 //460
 // class LFUCache {};
 
+//477
+int totalHammingDistance(std::vector<int>& nums);
+
 //509
 int numWays(int n);
 
