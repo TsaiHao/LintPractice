@@ -2,14 +2,7 @@
 
 add_subdirectory(LintCode)
 add_subdirectory(LeetCode)
-set(CMAKE_BUILD_TYPE "Debug")
-IF (WIN32)
-    set(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS}")
-    set(CMAKE_CXX_FLAGS_RELEASE "$ENV{CXXFLAGS}")
-ELSE()
-    set(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O0 -g")
-    set(CMAKE_CXX_FLAGS_RELEASE "$ENV{CXXFLAGS} -O3 -Wall")
-ENDIF()
+
 add_executable (LintCodes main.cpp)
 
 target_link_libraries(LintCodes LintFuns LeetFuns)
